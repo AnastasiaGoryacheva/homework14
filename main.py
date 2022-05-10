@@ -101,4 +101,4 @@ def search_genre(genre):
         return jsonify(result_json)
 
 
-app.run(debug=True)
+app.run()
